@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": true,
+      "module": "esnext",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "lib": [
+        "es6",
+        "dom"
+      ],
+      "types": [
+        "node"
+      ],
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "baseUrl": "."
+    }
+  }
