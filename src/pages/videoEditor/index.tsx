@@ -3,7 +3,7 @@ import { aggregation } from './module/aggregation'
 import './index.less'
 export default () => {
   const editor: any = useRef()
-  const changeEditor = (e: any) => {
+  const changeEditor = () => {
     const nodes = aggregation(editor.current.childNodes).map(elNode => {
       if (Array.isArray(elNode.data)) {
         return elNode.data.map(el => {
