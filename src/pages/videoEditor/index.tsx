@@ -19,7 +19,6 @@ export default () => {
       return element
     })
     editor.current.innerHTML = ''
-    console.log(nodes)
     nodes.flat().forEach(element => {
       editor.current.appendChild(element)
     })
