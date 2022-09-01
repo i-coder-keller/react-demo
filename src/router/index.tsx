@@ -16,20 +16,11 @@ export const routers: Array<Router> = [
     element: LazyLoad(lazy(() => import('@/layout'))),
     children: [
       {
-        name: 'VideoEditor',
-        path: '/videoEditor',
+        name: 'Editor',
+        path: '/editor',
         element: LazyLoad(lazy(() => import('@/pages/videoEditor')))
-      },
-      {
-        name: 'ImageCompress',
-        path: '/imageCompress',
-        element: LazyLoad(lazy(() => import('@/pages/imageCompress')))
       }
     ]
-  },
-  {
-    path: "*",
-    element: <Navigate to="/404" />
   }
 ]
 

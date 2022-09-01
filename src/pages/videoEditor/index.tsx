@@ -5,8 +5,7 @@ export default () => {
 
   return (
     <>
-      <div>videoEditor</div>
-      <Link to={'/imageCompress'}> imageCompress </Link>
+      <div>editor</div>
     </>
   )
 }
