@@ -1,11 +1,12 @@
 import React from "react"
-import {Link} from "react-router-dom";
-
+import './index.less'
 export default () => {
-
+  const changeEditor = (e: any) => {
+    console.log(e.target)
+  }
   return (
-    <>
-      <div>editor</div>
-    </>
+    <div className="editor-container" contentEditable="true" onInput={changeEditor}>
+
+    </div>
   )
 }
