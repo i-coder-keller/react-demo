@@ -4,6 +4,7 @@ import './index.less'
 export default () => {
   const editor: any = useRef()
   const changeEditor = () => {
+    console.log(editor.current)
     const nodes = aggregation(editor.current.childNodes).map(elNode => {
       if (Array.isArray(elNode.data)) {
         return elNode.data.map(el => {
