@@ -33,6 +33,7 @@ module.exports = {
         'prefer-const': 'error',
         'rest-spread-spacing': 'error',
         '@typescript-eslint/no-var-requires': 0,
-        "vue/multi-word-component-names":"off",
+        'jsx-quotes': "error",
+        "quotes": "error"
     }
 }

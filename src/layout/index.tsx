@@ -29,10 +29,9 @@ const App: React.FC = () => {
           onSelect={changeRouter}
         />
       </Header>
-      <Content style={{ padding: '20px 50px' }}>
+      <Content style={{ padding: '20px 50px', overflowY: "auto" }}>
         <Outlet />
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
     </Layout>
   )
 }

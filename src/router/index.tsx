@@ -19,6 +19,11 @@ export const routers: Array<Router> = [
         name: 'Editor',
         path: '/editor',
         element: LazyLoad(lazy(() => import('@/pages/videoEditor')))
+      },
+      {
+        name: "Paragraph",
+        path: "/paragraph",
+        element: LazyLoad(lazy(() => import("@/pages/paragraphEditor")))
       }
     ]
   }
