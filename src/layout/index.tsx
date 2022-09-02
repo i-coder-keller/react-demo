@@ -1,7 +1,7 @@
-import { Layout, Menu } from 'antd'
-import React from 'react'
-import Menus from './menus'
-import './layout.less'
+import { Layout, Menu } from "antd"
+import React from "react"
+import Menus from "./menus"
+import "./layout.less"
 import { Outlet, useNavigate} from "react-router-dom"
 const { Header, Content, Footer } = Layout
 
@@ -18,7 +18,7 @@ const App: React.FC = () => {
         <Menu
           theme="dark"
           mode="horizontal"
-          defaultSelectedKeys={['2']}
+          defaultSelectedKeys={["2"]}
           items={Menus.map(m => {
             const key = m.path;
             return {
@@ -29,7 +29,7 @@ const App: React.FC = () => {
           onSelect={changeRouter}
         />
       </Header>
-      <Content style={{ padding: '20px 50px', overflowY: "auto" }}>
+      <Content style={{ padding: "20px 50px", overflowY: "auto" }}>
         <Outlet />
       </Content>
     </Layout>

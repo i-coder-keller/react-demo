@@ -1,7 +1,7 @@
-import React, {useEffect, useMemo, useState} from 'react'
+import React, {useEffect, useMemo, useState} from "react"
 import "./index.less"
 import LineEditor from "./module/lineEditor"
-import data from './data'
+import data from "./data"
 interface Scenes {
   text: string;
   customMaterials: Array<any>;

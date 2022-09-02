@@ -1,6 +1,6 @@
-import React, {lazy} from 'react'
+import React, {lazy} from "react"
 import { useRoutes, Navigate } from "react-router-dom"
-import LazyLoad from '@/layout/lazyLoad'
+import LazyLoad from "@/layout/lazyLoad"
 
 interface Router {
     name?: string;
@@ -11,14 +11,14 @@ interface Router {
 
 export const routers: Array<Router> = [
   {
-    name: 'Layout',
-    path: '/',
-    element: LazyLoad(lazy(() => import('@/layout'))),
+    name: "Layout",
+    path: "/",
+    element: LazyLoad(lazy(() => import("@/layout"))),
     children: [
       {
-        name: 'Editor',
-        path: '/editor',
-        element: LazyLoad(lazy(() => import('@/pages/videoEditor')))
+        name: "Editor",
+        path: "/editor",
+        element: LazyLoad(lazy(() => import("@/pages/videoEditor")))
       },
       {
         name: "Paragraph",
