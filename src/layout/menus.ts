@@ -6,5 +6,9 @@ export default [
   {
     name: "段落编辑器",
     path: "/paragraph"
+  },
+  {
+    name: "韩伟",
+    path: "/updateData"
   }
 ]

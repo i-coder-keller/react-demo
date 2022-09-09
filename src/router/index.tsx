@@ -24,6 +24,11 @@ export const routers: Array<Router> = [
         name: "Paragraph",
         path: "/paragraph",
         element: LazyLoad(lazy(() => import("@/pages/paragraphEditor")))
+      },
+      {
+        name: "updateData",
+        path: "/updateData",
+        element: LazyLoad(lazy(() => import("@/pages/updateData")))
       }
     ]
   }
