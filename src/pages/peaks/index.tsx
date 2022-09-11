@@ -1,38 +1,53 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import "./index.less"
 import data from "./config.json"
-import Peaks from "peaks.js"
+import De from "./default.mp3"
+import Refs from "./refs"
 export default () => {
-  const [viewData, setViewData] = useState([])
-  useEffect(() => {
-    initPeaks()
-  }, [])
-  const initPeaks = () => {
-    const options = {
-      zoomview: {
-        container: document.getElementById("zoomview-container")
-      },
-      overview: {
-        container: document.getElementById("overview-container")
-      },
-      mediaElement: document.querySelector("audio"),
-      dataUri: {
-        arraybuffer: data.data.list[0].waveformConfig
-      }
-    }
-    Peaks.init(options, function (err, peaks) {
-      if (err) {
-        console.error("Failed to initialize Peaks instance: " + err.message);
-        return;
-      }
-
-    });
+  const [current, setCurrent] = useState<string>("")
+  const [time, setTime] = useState<NodeJS.Timer | null>()
+  const audioRef = useRef<HTMLAudioElement>()
+  const [currentTime, setCurrentTime] = useState(0)
+  const [duration, setDuration] = useState(0)
+  useEffect(() => { 
+    if (!current) return
+    audioRef.current.play()
+  }, [current])
+  const playing = () => {
+    setTime(setInterval(() => {
+      setCurrentTime(audioRef.current.currentTime)
+    }))
+  }
+  const ended = () => {
+    clearInterval(time)
+  }
+  const audioPause = () => {
+    audioRef.current.pause()
   }
   return (
     <div className="container">
-      <div id="zoomview-container"></div>
-      <div id="overview-container"></div>
-      <audio src={data.data.list[0].url}></audio>
+      {
+        data.data.list.map(r => {
+          return <Refs
+            config={r.waveformConfig}
+            file={De}
+            key={r.url}
+            refUrl={r.url}
+            setCurrent={setCurrent}
+            audioPause={audioPause}
+            duration={duration}
+            currentTime={currentTime}
+          />
+        })
+      }
+      <audio
+        src={current}
+        ref={audioRef}
+        onPlay={playing}
+        onPause={ended}
+        onEnded={ended}
+        onLoadedMetadata={() => setDuration(audioRef.current.duration)}
+      ></audio>
     </div>
   )
 }
