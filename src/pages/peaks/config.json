@@ -1,0 +1,650 @@
+{
+    "code": 1,
+    "msg": "SUCCESS",
+    "data": {
+        "page": 1,
+        "limit": 20,
+        "count": 19,
+        "cursor": 0,
+        "total": 273,
+        "list": [
+            {
+                "addTime": 1655288407512,
+                "author": "东",
+                "bgAudioId": "219",
+                "duration": 265000,
+                "inUse": 1,
+                "labels": "53,46,70,66,47,56,62,57,67,64,50,45,61,69,52,55,48,44,65,49,60,58,59,51,54,63,71,68",
+                "labelsStr": [
+                    {
+                        "id": 53,
+                        "value": "高燃"
+                    },
+                    {
+                        "id": 46,
+                        "value": "舒缓"
+                    },
+                    {
+                        "id": 70,
+                        "value": "民族"
+                    },
+                    {
+                        "id": 66,
+                        "value": "金属"
+                    },
+                    {
+                        "id": 47,
+                        "value": "轻快"
+                    },
+                    {
+                        "id": 56,
+                        "value": "节日"
+                    },
+                    {
+                        "id": 62,
+                        "value": "经典"
+                    },
+                    {
+                        "id": 57,
+                        "value": "紧张"
+                    },
+                    {
+                        "id": 67,
+                        "value": "电子"
+                    },
+                    {
+                        "id": 64,
+                        "value": "爵士"
+                    },
+                    {
+                        "id": 50,
+                        "value": "激昂"
+                    },
+                    {
+                        "id": 45,
+                        "value": "温情"
+                    },
+                    {
+                        "id": 61,
+                        "value": "浪漫"
+                    },
+                    {
+                        "id": 69,
+                        "value": "流行"
+                    },
+                    {
+                        "id": 52,
+                        "value": "卡点"
+                    },
+                    {
+                        "id": 55,
+                        "value": "武侠"
+                    },
+                    {
+                        "id": 48,
+                        "value": "欢乐"
+                    },
+                    {
+                        "id": 44,
+                        "value": "放松"
+                    },
+                    {
+                        "id": 65,
+                        "value": "摇滚"
+                    },
+                    {
+                        "id": 49,
+                        "value": "搞笑"
+                    },
+                    {
+                        "id": 60,
+                        "value": "悲伤"
+                    },
+                    {
+                        "id": 58,
+                        "value": "悬疑"
+                    },
+                    {
+                        "id": 59,
+                        "value": "恐怖"
+                    },
+                    {
+                        "id": 51,
+                        "value": "大气"
+                    },
+                    {
+                        "id": 54,
+                        "value": "国风"
+                    },
+                    {
+                        "id": 63,
+                        "value": "嘻哈"
+                    },
+                    {
+                        "id": 71,
+                        "value": "古风"
+                    },
+                    {
+                        "id": 68,
+                        "value": "古典"
+                    }
+                ],
+                "mediaId": "6967735444343734272",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/A4hlcxqcc7kGuJeHLAPT3B7dqhKJZt.jpg",
+                "title": "激昂",
+                "type": 6,
+                "typeStr": {
+                    "id": 6,
+                    "value": "激昂"
+                },
+                "uniqueIndexId": 1,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/jRm4kjvZnvwRT9gukLloq1yUe5~msklB4X6LTw___2.mp3?ssig=0928aeba1066c31ce830e6758665d72d\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/PRR1Vu0h1k_6967735444343734272.json"
+            },
+            {
+                "addTime": 1662535871567,
+                "author": "oppO",
+                "bgAudioId": "228",
+                "duration": 13000,
+                "inUse": 0,
+                "labels": "46",
+                "labelsStr": [
+                    {
+                        "id": 46,
+                        "value": "舒缓"
+                    }
+                ],
+                "mediaId": "6973180696445702144",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/oik8Y8npi6exNZAWFWYBEZl41t68J.jpg",
+                "title": "oppo音乐",
+                "type": 1,
+                "typeStr": {
+                    "id": 1,
+                    "value": "热门"
+                },
+                "uniqueIndexId": 2,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/PVAoz1wOtBZtYzwZJD7lU4Upe01I-9A-MWUU1A___2.mp3?ssig=25127dbc061e6afabf1947675cbac054\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/oppo_1662535833856_733.json"
+            },
+            {
+                "addTime": 1650006350335,
+                "author": "123",
+                "bgAudioId": "218",
+                "duration": 13000,
+                "inUse": 0,
+                "labels": "56,58,59,60,57",
+                "labelsStr": [
+                    {
+                        "id": 56,
+                        "value": "节日"
+                    },
+                    {
+                        "id": 58,
+                        "value": "悬疑"
+                    },
+                    {
+                        "id": 59,
+                        "value": "恐怖"
+                    },
+                    {
+                        "id": 60,
+                        "value": "悲伤"
+                    },
+                    {
+                        "id": 57,
+                        "value": "紧张"
+                    }
+                ],
+                "mediaId": "6967768681019457536",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/dVv2iAE1eI4l6E8MpGAvUtgcdzEW9GLR.jpg",
+                "title": "123",
+                "type": 1,
+                "typeStr": {
+                    "id": 1,
+                    "value": "热门"
+                },
+                "uniqueIndexId": 3,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/ckOJ7-ZbmPc~lomb5PYLryE9RARXfCY1ocz1Kg___2.mp3?ssig=11d655b4fe35efbf16e2c714c762a8a3\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/VvYon3bk15_6967768681019457536.json"
+            },
+            {
+                "addTime": 1647517837780,
+                "author": "作者,",
+                "bgAudioId": "215",
+                "duration": 265000,
+                "inUse": 0,
+                "labels": "1,2,3",
+                "labelsStr": [],
+                "mediaId": "6967768552560508928",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/P2vNLJUs4rVNFSaBdfYFRZvNtvA6Z.jpg",
+                "title": "标题",
+                "type": 0,
+                "typeStr": null,
+                "uniqueIndexId": 4,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/SU-aRbUWCunOPOuot3TrMW-OVvAxCMyIBWaVIA___2.mp3?ssig=39de6da7d9fe25c40ce8f215b60a6cfe\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/2LoywS8KVO_6967768552560508928.json"
+            },
+            {
+                "addTime": 1662109689575,
+                "author": "二",
+                "bgAudioId": "226",
+                "duration": 222000,
+                "inUse": 0,
+                "labels": "62",
+                "labelsStr": [
+                    {
+                        "id": 62,
+                        "value": "经典"
+                    }
+                ],
+                "mediaId": "6971393241077895168",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/rcurv2O2RC2RgS31U8BkqM74MzM35dL.jpg",
+                "title": "一",
+                "type": 8,
+                "typeStr": {
+                    "id": 8,
+                    "value": "卡点"
+                },
+                "uniqueIndexId": 5,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/6BktW~gCMVXSRu-pbA3ajODGcO3nXSbAtUKfzw___2.mp3?ssig=aeefecbff5bbd7bd033f1d657dc828f3\u0026time_stamp=1662890326967",
+                "waveformConfig": ""
+            },
+            {
+                "addTime": 1662089092616,
+                "author": "张杰",
+                "bgAudioId": "225",
+                "duration": 222000,
+                "inUse": 0,
+                "labels": "53,70,57,67,50,69,48,54",
+                "labelsStr": [
+                    {
+                        "id": 53,
+                        "value": "高燃"
+                    },
+                    {
+                        "id": 70,
+                        "value": "民族"
+                    },
+                    {
+                        "id": 57,
+                        "value": "紧张"
+                    },
+                    {
+                        "id": 67,
+                        "value": "电子"
+                    },
+                    {
+                        "id": 50,
+                        "value": "激昂"
+                    },
+                    {
+                        "id": 69,
+                        "value": "流行"
+                    },
+                    {
+                        "id": 48,
+                        "value": "欢乐"
+                    },
+                    {
+                        "id": 54,
+                        "value": "国风"
+                    }
+                ],
+                "mediaId": "6971306034501636096",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/YDsXiWjX8t5xtuf5se9H7OaKAGBAnAW.jpg",
+                "title": "天下",
+                "type": 1,
+                "typeStr": {
+                    "id": 1,
+                    "value": "热门"
+                },
+                "uniqueIndexId": 6,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/71Lnz36y6JEbiEmibdBdEcOcsPE5ngd0FSGWoA___2.mp3?ssig=5f55ecbc286a627da905dc58f74b4635\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/张杰-天下_1662088881988_204.json"
+            },
+            {
+                "addTime": 1661764688924,
+                "author": "测试🐴",
+                "bgAudioId": "222",
+                "duration": 3000,
+                "inUse": 0,
+                "labels": "57,67,64,50,45,61,69,52,55,48,44,65,49,60,58,59,51,54,63,71",
+                "labelsStr": [
+                    {
+                        "id": 57,
+                        "value": "紧张"
+                    },
+                    {
+                        "id": 67,
+                        "value": "电子"
+                    },
+                    {
+                        "id": 64,
+                        "value": "爵士"
+                    },
+                    {
+                        "id": 50,
+                        "value": "激昂"
+                    },
+                    {
+                        "id": 45,
+                        "value": "温情"
+                    },
+                    {
+                        "id": 61,
+                        "value": "浪漫"
+                    },
+                    {
+                        "id": 69,
+                        "value": "流行"
+                    },
+                    {
+                        "id": 52,
+                        "value": "卡点"
+                    },
+                    {
+                        "id": 55,
+                        "value": "武侠"
+                    },
+                    {
+                        "id": 48,
+                        "value": "欢乐"
+                    },
+                    {
+                        "id": 44,
+                        "value": "放松"
+                    },
+                    {
+                        "id": 65,
+                        "value": "摇滚"
+                    },
+                    {
+                        "id": 49,
+                        "value": "搞笑"
+                    },
+                    {
+                        "id": 60,
+                        "value": "悲伤"
+                    },
+                    {
+                        "id": 58,
+                        "value": "悬疑"
+                    },
+                    {
+                        "id": 59,
+                        "value": "恐怖"
+                    },
+                    {
+                        "id": 51,
+                        "value": "大气"
+                    },
+                    {
+                        "id": 54,
+                        "value": "国风"
+                    },
+                    {
+                        "id": 63,
+                        "value": "嘻哈"
+                    },
+                    {
+                        "id": 71,
+                        "value": "古风"
+                    }
+                ],
+                "mediaId": "6969950968565841920",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/lXnFdmttsLGeOGMVKGifnkqiEku8H40X.jpg",
+                "title": "测试音乐",
+                "type": 1,
+                "typeStr": {
+                    "id": 1,
+                    "value": "热门"
+                },
+                "uniqueIndexId": 7,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/GEnhtlLyGGBPjojKJ0C0u94st~UKS4C1loa9~g___2.mp3?ssig=5b290a7aad3b1f0c6984bb2cbcbd1c4f\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/旋风-快速一声-短视频转场音乐_爱给网_aigei_com_1661765806379_878.json"
+            },
+            {
+                "addTime": 1644056469,
+                "author": "演唱者和",
+                "bgAudioId": "9",
+                "duration": 276000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6895672588031344640",
+                "picture": "//imgaliyuncdn.miaopai.com/images/default-audio-picture-1234567890.png",
+                "title": "这个是歌曲名称",
+                "type": 0,
+                "typeStr": null,
+                "uniqueIndexId": 8,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/u1eVsqcz61aucFDHOrIGpJPocilr6h4m-e1cUw__.mp3?ssig=8d725bf7e91eaef0792944b9e9e7c128\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/g7HQQbOTon_6895672588031344640.json"
+            },
+            {
+                "addTime": 1644824400172,
+                "author": "Bryan Teoh",
+                "bgAudioId": "18",
+                "duration": 136000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6898893318936182784",
+                "picture": "//imgaliyuncdn.miaopai.com/images/default-audio-picture-1234567890.png",
+                "title": "From Page to Practice",
+                "type": 0,
+                "typeStr": null,
+                "uniqueIndexId": 9,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/lU~3xMiz1ism7xilkhB7nMLlugUC6FQz-ywBpA__.mp3?ssig=8414926ce16005b54aa6d8a68ddea19d\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/LSuIEQuZY7_6898893318936182784.json"
+            },
+            {
+                "addTime": 1644824335535,
+                "author": "Kevin MacLeod",
+                "bgAudioId": "17",
+                "duration": 184000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6898893003377721344",
+                "picture": "//imgaliyuncdn.miaopai.com/images/default-audio-picture-1234567890.png",
+                "title": "City Sunshine",
+                "type": 0,
+                "typeStr": null,
+                "uniqueIndexId": 10,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/8RsBcJZiRHyCcrypHUBQksd74kNNpVs4~aWCHw__.mp3?ssig=6c756448c0c9021555eade88f5170a9c\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/b0CUuWyLFf_6898893003377721344.json"
+            },
+            {
+                "addTime": 1644892411482,
+                "author": "V.A.",
+                "bgAudioId": "88",
+                "duration": 13000,
+                "inUse": 0,
+                "labels": "62",
+                "labelsStr": [
+                    {
+                        "id": 62,
+                        "value": "经典"
+                    }
+                ],
+                "mediaId": "6967736562914279424",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/7z3amHp7r0co2lMGp9MlmB2k9NdWWq.jpg",
+                "title": "Stupid Idea",
+                "type": 6,
+                "typeStr": {
+                    "id": 6,
+                    "value": "激昂"
+                },
+                "uniqueIndexId": 11,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/5FZwC3wWuOaqmssWUbupWRHAHWBYksnyLIyA7w___2.mp3?ssig=503f04db6c8256e6c5362d244eeeecfd\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/AjGEeHlCxt_6967736562914279424.json"
+            },
+            {
+                "addTime": 1644891184832,
+                "author": "麦振鸿",
+                "bgAudioId": "72",
+                "duration": 269000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6899173590424469504",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/DGcqRjeO15fgul7pvLe3VGlwJFY65ljr.jpg",
+                "title": "恨爱交加",
+                "type": 6,
+                "typeStr": {
+                    "id": 6,
+                    "value": "激昂"
+                },
+                "uniqueIndexId": 12,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/BUWIpk6~lyRfERAgMEI4kVd7kbeZDZkrylqcmw__.mp3?ssig=24c9f25e843146a4d2ad43eb15a75504\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/Jl0G0lesi0_6899173590424469504.json"
+            },
+            {
+                "addTime": 1644891265861,
+                "author": "Audiomachine",
+                "bgAudioId": "74",
+                "duration": 176000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6899173935615688704",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/binVSNOYhRmQoClhlX4anA0t08Y1YFUf.jpg",
+                "title": "When The Time Comes",
+                "type": 5,
+                "typeStr": {
+                    "id": 5,
+                    "value": "搞笑"
+                },
+                "uniqueIndexId": 13,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/Gnu4LzLEtjeQwChVXNYXXfOz~deSHDvmhKm2nw__.mp3?ssig=12a95d43ab7df6e41bce4ffec213b1e1\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/KfFeb8Uus1_6899173935615688704.json"
+            },
+            {
+                "addTime": 1645603263881,
+                "author": "Candy_Wind",
+                "bgAudioId": "205",
+                "duration": 183000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6902160204943704064",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/yNrGKDf7hADPlKa7swNAwdtzCgVGhYHH.jpg",
+                "title": "和煦的糖果风",
+                "type": 4,
+                "typeStr": {
+                    "id": 4,
+                    "value": "欢快"
+                },
+                "uniqueIndexId": 14,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/MGCVtD6cw~Xg50ulaJn2CN8mBIP3Qj9tVd2fPw__.mp3?ssig=b1f12329c208ac5fc4087fe02a380337\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/V9addp2xBJ_6902160204943704064.json"
+            },
+            {
+                "addTime": 1645602897829,
+                "author": "灰澈",
+                "bgAudioId": "202",
+                "duration": 196000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6902158741941108736",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/ImzAsNFODpUPMScvZqbmPHmubmMWgD.jpg",
+                "title": "星茶会",
+                "type": 4,
+                "typeStr": {
+                    "id": 4,
+                    "value": "欢快"
+                },
+                "uniqueIndexId": 15,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/VT446mgaxlF1jN9d61~p9cUjuuZ29ONxb5MCMA__.mp3?ssig=c2a0f302fd0621372bee3051b0848777\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/jKUvFEnil6_6902158741941108736.json"
+            },
+            {
+                "addTime": 1644907707829,
+                "author": "Bryan Teoh",
+                "bgAudioId": "154",
+                "duration": 239000,
+                "inUse": 0,
+                "labels": "45",
+                "labelsStr": [
+                    {
+                        "id": 45,
+                        "value": "温情"
+                    }
+                ],
+                "mediaId": "6899242871619174400",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/6HwnkctwjnzkJKZLRCUzFEUa8HGEp0MK.jpg",
+                "title": "Alls Fair In Love",
+                "type": 4,
+                "typeStr": {
+                    "id": 4,
+                    "value": "欢快"
+                },
+                "uniqueIndexId": 16,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/zGeGgBfy~PCYOYOoPgiMrtA83tVy9HC5Gpgl~g__.mp3?ssig=6f36975902eedaca484082e6719d168c\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/3Na3Esrjph_6899242871619174400.json"
+            },
+            {
+                "addTime": 1644905815567,
+                "author": "Alexander Nakarada",
+                "bgAudioId": "135",
+                "duration": 183000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6899234902517071872",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/17L0l4da10U3IxsMQaeDLtogmsGWWc1.jpg",
+                "title": "Brothers Unite",
+                "type": 4,
+                "typeStr": {
+                    "id": 4,
+                    "value": "欢快"
+                },
+                "uniqueIndexId": 17,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/pPZXek4KLNphpW-0Tlq03mRDX4K8ZNchn7~c9w__.mp3?ssig=83a65912ed71901f0ab5fa87204e25d9\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/cWs6G2VGll_6899234902517071872.json"
+            },
+            {
+                "addTime": 1644905677935,
+                "author": "Kevin MacLeod",
+                "bgAudioId": "133",
+                "duration": 388000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6899234422516727808",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/IQFVFZ8b46eqrGPFXwrzTYLKX5GvwbP.jpg",
+                "title": "A Very Brady Special",
+                "type": 4,
+                "typeStr": {
+                    "id": 4,
+                    "value": "欢快"
+                },
+                "uniqueIndexId": 18,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/audio/PqJ0VunaZGWNM8hGgpZbXKc3lBibdwZffOPw0g__.mp3?ssig=a98979c7eeb9a872fd6903eca78a073b\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/gp6eUDHweg_6899234422516727808.json"
+            },
+            {
+                "addTime": 1644891061113,
+                "author": "Snigellin",
+                "bgAudioId": "69",
+                "duration": 13000,
+                "inUse": 0,
+                "labels": "",
+                "labelsStr": [],
+                "mediaId": "6967736317589438464",
+                "picture": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/stream/image/XHI0gjOR9NTC1uORzy2DWQ0E4cDKShTX.jpg",
+                "title": "Sakura Tears",
+                "type": 3,
+                "typeStr": {
+                    "id": 3,
+                    "value": "轻快"
+                },
+                "uniqueIndexId": 19,
+                "url": "http://mp-audio-test.oss-cn-beijing-internal.aliyuncs.com/stream/-TdPBKBEroztLlMfYMdaEgjHJMwDTm57mZ64fw___2.mp3?ssig=6d15d72fe6fc0194576f3aa2f831f691\u0026time_stamp=1662890326967",
+                "waveformConfig": "http://trans-test.oss-cn-beijing-internal.aliyuncs.com/user/file/nyeAdxf7k5_6967736317589438464.json"
+            }
+        ],
+        "hasMore": 1
+    }
+}

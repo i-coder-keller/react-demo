@@ -29,6 +29,11 @@ export const routers: Array<Router> = [
         name: "updateData",
         path: "/updateData",
         element: LazyLoad(lazy(() => import("@/pages/updateData")))
+      },
+      {
+        name: "peaks",
+        path: "/peaks",
+        element: LazyLoad(lazy(() => import("@/pages/peaks")))
       }
     ]
   }

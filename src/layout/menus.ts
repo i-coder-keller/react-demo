@@ -10,5 +10,9 @@ export default [
   {
     name: "韩伟",
     path: "/updateData"
+  },
+  {
+    name: "peaks",
+    path: "/peaks"
   }
 ]

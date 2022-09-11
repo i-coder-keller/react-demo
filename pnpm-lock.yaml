@@ -23,10 +23,12 @@ specifiers:
   fork-ts-checker-webpack-plugin: ^7.2.13
   happypack: ^5.0.1
   html-webpack-plugin: ^5.5.0
+  konva: ^8.3.12
   less: ^4.1.3
   less-loader: ^11.0.0
   mini-css-extract-plugin: ^2.6.1
   normalize.css: ^8.0.1
+  peaks.js: ^2.0.6
   postcss: ^8.4.16
   postcss-loader: ^7.0.1
   postcss-preset-env: ^7.8.0
@@ -38,6 +40,7 @@ specifiers:
   style-loader: ^3.3.1
   ts-loader: ^9.3.1
   typescript: ^4.7.4
+  waveform-data: ^4.3.0
   webpack: ^5.74.0
   webpack-cli: ^4.10.0
   webpack-dev-server: ^4.10.1
@@ -46,12 +49,15 @@ specifiers:
 
 dependencies:
   antd: 4.22.8_biqbaboplfbrettd7655fr4n2y
+  konva: 8.3.12
   normalize.css: 8.0.1
+  peaks.js: 2.0.6_zwglygijkhlz5yfff44qoyx4e4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
   react-transition-group: 4.4.5_biqbaboplfbrettd7655fr4n2y
   reset-css: 5.0.1
+  waveform-data: 4.3.0
 
 devDependencies:
   '@babel/core': 7.18.13
@@ -3354,7 +3360,6 @@ packages:
 
   /eventemitter3/4.0.7:
     resolution: {integrity: sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==}
-    dev: true
 
   /events/3.3.0:
     resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
@@ -4146,6 +4151,10 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
+  /konva/8.3.12:
+    resolution: {integrity: sha512-+tZQOMqEg1EVvsHoRGiC4iImAX8mfNk1mEOyu+Ox8iLpj7oOsjAKw0Kd6Om0EAQnxhcSnwW3ltxfhAUfO0ejtQ==}
+    dev: false
+
   /less-loader/11.0.0_less@4.1.3+webpack@5.74.0:
     resolution: {integrity: sha512-9+LOWWjuoectIEx3zrfN83NAGxSUB5pWEabbbidVQVgZhN+wN68pOvuyirVlH1IK4VT1f3TmlyvAnCXh8O5KEw==}
     engines: {node: '>= 14.15.0'}
@@ -4678,6 +4687,18 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
     dev: true
+
+  /peaks.js/2.0.6_zwglygijkhlz5yfff44qoyx4e4:
+    resolution: {integrity: sha512-P0NDtQdWidj1lvIjfT/z5Oiuq+lPfmC/ECR5Jxynag8Sq1XxxWqQA7JbufYT7kQTSeZ6YcVdJpxVJ+9XsWmGWw==}
+    engines: {node: '>= 8.11.2'}
+    peerDependencies:
+      konva: '>= 8.3.10 < 9'
+      waveform-data: '>= 4.3.0 < 5'
+    dependencies:
+      eventemitter3: 4.0.7
+      konva: 8.3.12
+      waveform-data: 4.3.0
+    dev: false
 
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
@@ -6800,6 +6821,10 @@ packages:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.10
     dev: true
+
+  /waveform-data/4.3.0:
+    resolution: {integrity: sha512-gddZgTV1dM8Mfaqn+mCJjwTAc7O/GbX2LgOrijRCHEGC60ZVdd/qTzrgEcCE5MfBoBPgwQ85huy1icSf5IZY5Q==}
+    dev: false
 
   /wbuf/1.7.3:
     resolution: {integrity: sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==}
