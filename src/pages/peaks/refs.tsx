@@ -29,23 +29,17 @@ export default (props: Props) => {
         const data = json
         w.load(file, data)
       })
+    w.drawer.on("click", (e: any) => {
+      console.log(e.layerX / e.screenX)
+    })
     setRefAudio(w)
   }
   useEffect(() => {
     if (!refAudo) return
     setProgres()
   }, [currentTime, duration])
-  useEffect(() => {
-    if (!refAudo) return
-    initEvent()
-  }, [refAudo])
   const setProgres = () => {
     refAudo.seekTo(currentTime / duration)
-  }
-  const initEvent = () => {
-    refAudo.on("click", () => {
-      console.log("点击")
-    })
   }
   return (
     <div className="refContainer">
