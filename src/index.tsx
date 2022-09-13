@@ -5,8 +5,6 @@ import "normalize.css"
 import "./styles/global.less"
 import "antd/dist/antd.css"
 ReactDom.createRoot(document.querySelector("#root") as HTMLElement).render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
+  <App/>
 )
 
