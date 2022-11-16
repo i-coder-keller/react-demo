@@ -14,5 +14,9 @@ export default [
   {
     name: "peaks",
     path: "/peaks"
+  },
+  {
+    name: "大屏滚动",
+    path: "/scrollPage"
   }
 ]

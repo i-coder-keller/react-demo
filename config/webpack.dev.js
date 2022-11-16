@@ -27,5 +27,6 @@ module.exports = merge(baseConfig, {
         },
         watchFiles: ['src/**/*.vue', 'public/**/*', 'src/**/*.ts'],
         hot: true,
+        proxy: require('./proxy')
     }
 })

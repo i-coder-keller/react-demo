@@ -34,6 +34,11 @@ export const routers: Array<Router> = [
         name: "peaks",
         path: "/peaks",
         element: LazyLoad(lazy(() => import("@/pages/peaks")))
+      },
+      {
+        name: "scrollPage",
+        path: "/scrollPage",
+        element: LazyLoad(lazy(() => import("@/pages/scrollPage")))
       }
     ]
   }
