@@ -1,50 +1,58 @@
-import React, {useEffect, useState} from "react"
+import React, {useEffect, useRef, useState} from "react"
 import Card, { IProps } from "./card"
 import axios from "axios"
-const column = 6
+const column = 5
 export default () => {
-  const [ viewData, setViewData ] = useState<Array<Array<IProps>>>(new Array(column).fill(new Array(column).fill([])))
+  const container = useRef<HTMLDivElement>(null)
+  const target = useRef<HTMLDivElement>(null)
+  const [ viewData, setViewData ] = useState<Array<IProps>>([])
+  const [loading, setLoading] = useState<boolean>( false)
   const fetchData = async () => {
+    if (loading) return
     try {
+      setLoading(true)
+      console.log("请求数据")
       const { data } = await axios.post("/api/scrollPage")
-      data.data.list.forEach((cardData: IProps) => {
-        calculateImagePosition(cardData)
-      })
-      console.log(data.data.list)
+      setViewData(cards => [...cards, ...data.data.list])
+      setLoading(false)
     } catch (e) {
       console.warn(e)
     }
   }
-  const calculateImagePosition = (cardData: IProps) => {
-    const targets = viewData.map((target, index) => ({
-      height: target.reduce((pre, nex) => (pre+nex.height), 0),
-      index
-    }))
-    targets.sort((a, b) => a.height - b.height)
-    cardData.height = (100 / cardData.width) * cardData.height
-    cardData.height = 100
-    setViewData(vd => {
-      return vd.map((_, index) => {
-        if (index === targets[0].index) return [..._, cardData]
-        return _
+  const start = () => {
+    requestAnimationFrame(() => {
+      container!.current.scrollTo({
+        top: container!.current.scrollTop + 1,
       })
+      start()
+    })
+  }
+  const initEvent = () => {
+    container!.current.addEventListener("scroll", e => {
+      const target = e.target as HTMLDivElement
+      const scrollHeight = target!.scrollHeight
+      const clientHeight = target!.clientHeight
+      const scrollTop = target!.scrollTop
+      const bottom = 300
+      const scrollBottom = scrollHeight - clientHeight - scrollTop
+      if (scrollBottom < bottom) {
+        fetchData()
+      }
     })
   }
   useEffect(() => {
     fetchData()
+    start()
+    initEvent()
   }, [])
   return (
-    <div className="w-full h-full flex gap-2.5">
+    <div className="w-full h-full overflow-y-scroll flex gap-2.5" ref={container}>
       {
-        viewData.map((vd, index) => {
-          return (
-            <div className="flex grow flex-col" key={`parent-${index}`}>
-              {
-                vd.map((itemData, key) => (<Card {...itemData} key={`children-${key}`}></Card>))
-              }
-            </div>
-          )
-        })
+        <div className="flex grow flex-col gap-2.5" ref={target}>
+          {
+            viewData.map((itemData, key) => (<Card {...itemData} key={`children-${key}`}></Card>))
+          }
+        </div>
       }
     </div>
   )

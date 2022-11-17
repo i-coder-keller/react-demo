@@ -6,10 +6,10 @@ export interface IProps {
     width: number
 }
 
-export default ({source, description}:IProps) => {
+export default ({source, description, width, height}:IProps) => {
   return (
-    <div className="w-full h-auto">
-      <img src={source} alt="source" className="w-full h-auto"/>
+    <div style={{width: `${width}px`, height: `${height}px`}} className="bg-current">
+      <img src={source} alt="source" className="w-full h-full"/>
       <div className="w-full mx-2 h-[20px] overflow-ellipsis font-normal">{description}</div>
     </div>
   )
